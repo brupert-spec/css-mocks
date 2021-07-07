@@ -1,0 +1,46 @@
+section {
+	height: 20em;
+	width: 80%;
+	position: relative;
+	top: auto;
+	left: 10%;
+	display: flex;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+}
+.gif-container {
+	box-sizing: border-box;
+	background-color: hsl(24, 50%, 85%);
+	border-radius: 10px;
+	height: 90%;
+	width: 20%;
+	padding: 10px;
+	position: relative;
+	top: 5%;
+	bottom: 5%;
+}
+.gif {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	margin: 5px 5px;
+}
+.overlay {
+	position: absolute;
+
+	width: 90%;
+	height: 0;
+	margin: 5px 5px;
+	overflow: hidden;
+	transition: 0.5s ease;
+}
+.gif-container:hover .overlay {
+	background-color: lightslategray;
+	height: 90%;
+	text-align: center;
+}
+.text {
+	font-size: 2em;
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,20 @@
+h2 {
+    text-decoration: underline;
+}
+.button {
+    background-color: hsla(204, 90%, 63%, 1);
+    border: 0;
+    line-height: 2;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2.5px 15px;
+    color: white;
+    
+}
+
+.button:hover {
+        background-color: hsla(204, 90%, 38%, 1);
+        cursor: pointer;
+
+
+}

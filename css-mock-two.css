@@ -1,0 +1,23 @@
+.container {
+   border: 1px solid black;
+   text-align: center;
+   width: 600px;
+   border-radius: 6px;
+   margin: 50px auto;
+   background-color:hsla(360, 3, 68, 1);
+
+}
+h3 {
+    text-align: left;
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+.cat-image {
+    width: 100%;
+
+}
+p {
+    text-align: left;
+    padding: 0 20px;
+}
